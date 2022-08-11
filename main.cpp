@@ -4,36 +4,25 @@
 
 int main(int argc, char** argv) {
 	
-	int i;
+	char nome [30];
+	char endereco [30];
+	int idade;
 	
-	do{
+	
+	
+	
+	printf("Nome \n");
+	scanf("%s", &nome);
+	
+	printf("Endereco \n");
+	scanf("%s", &endereco);
+	
+	
+    	printf ("idade");
+		scanf("%d", &idade);
+		printf("\n Nome: %s", nome);
+    	printf("\n Endereco: %s", endereco);
+		printf("\n Idade: %d", idade);
 		
-		printf("\n Digite o numero do sabor \n");
-
-        printf("\t (1).... flocos \n");
-        printf("\t (2).... morango \n");
-        printf("\t (3).... chocolate \n");
-	
-	
-	scanf ("%d", &i);
-	
-}while((i<1) || (i>3));
-
-switch(i){
-	
-	case 1 :
-	printf("\t\t vc escolheu flocos");
-	break;
-
-
-    case 2 :
-	printf("\t\t vc escolheu morango");
-	break;
-	
-	case 3 :
-	printf("\t\t vc escolheu chocolate");
-	break;
-
 	return 0;
-}
 }
